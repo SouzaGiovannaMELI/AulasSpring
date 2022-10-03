@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6b11f06-abbc-4a68-acc8-f467f8062fb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula02/SpringAula02Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula02/controller/ProdutoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula02/dto/ProdutoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula02/model/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula02/service/ProdutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/meli/dh/springaula02/SpringAula02ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,7 +42,9 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/gsalmeida/Workspaces/Aulas Spring/SpringAula02",
+    "spring.configuration.checksum": "7795c551c6961900a6ed6ec0fbe73678"
   }
 }]]></component>
   <component name="RunManager">
@@ -74,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664559589802</updated>
       <workItem from="1664559590891" duration="4286000" />
+      <workItem from="1664811928816" duration="1587000" />
     </task>
     <servers />
   </component>

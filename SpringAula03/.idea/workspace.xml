@@ -5,22 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a249cdfc-ac5c-4a0d-bf22-fe26cf23101b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/SpringAula03Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/controller/VeiculoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/exception/VeiculoNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/model/Veiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/repository/VeiculoRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/service/IVeiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/service/VeiculoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/veiculos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/meli/dh/springaula03/SpringAula03ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/exception/ExceptionDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/exception/HandlerExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringAula02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringAula02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringAula02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringAula02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/controller/VeiculoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/controller/VeiculoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/exception/VeiculoNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/exception/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/model/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/model/Veiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/repository/VeiculoRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/repository/VeiculoRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/service/IVeiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/service/IVeiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/service/VeiculoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/service/VeiculoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/veiculos.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/veiculos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/meli/dh/springaula03/controller/VeiculoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/meli/dh/springaula03/controller/VeiculoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/meli/dh/springaula03/exception/VeiculoNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/meli/dh/springaula03/repository/VeiculoRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/meli/dh/springaula03/repository/VeiculoRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/meli/dh/springaula03/service/IVeiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/meli/dh/springaula03/service/IVeiculo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/meli/dh/springaula03/service/VeiculoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/meli/dh/springaula03/service/VeiculoService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,7 +59,10 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/gsalmeida/Workspaces/Aulas Spring/SpringAula03",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "fe8848a244f77d293ea8eb6f28ef9af7"
   }
 }]]></component>
   <component name="RunManager">
@@ -78,6 +83,9 @@
       <option name="presentableId" value="Default" />
       <updated>1664800221581</updated>
       <workItem from="1664800222780" duration="4221000" />
+      <workItem from="1664818191252" duration="31000" />
+      <workItem from="1664818383119" duration="2643000" />
+      <workItem from="1664821194772" duration="2684000" />
     </task>
     <servers />
   </component>

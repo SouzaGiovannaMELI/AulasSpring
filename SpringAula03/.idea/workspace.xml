@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a249cdfc-ac5c-4a0d-bf22-fe26cf23101b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/dto/VeiculoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/controller/ProprietarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/model/Proprietario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/repository/ProprietarioRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/service/IProprietario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/service/ProprietarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/proprietario.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/SpringAula03Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/SpringAula03Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/controller/VeiculoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/controller/VeiculoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/repository/VeiculoRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/repository/VeiculoRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/service/IVeiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/service/IVeiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/service/VeiculoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/service/VeiculoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/meli/dh/springaula03/SpringAula03Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/meli/dh/springaula03/SpringAula03Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/model/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/meli/dh/springaula03/model/Veiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/veiculos.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/veiculos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/meli/dh/springaula03/model/Veiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/meli/dh/springaula03/model/Veiculo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/veiculos.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/veiculos.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/gsalmeida/Workspaces/Aulas Spring/SpringAula03/src/main/resources",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "fe8848a244f77d293ea8eb6f28ef9af7"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gsalmeida/Workspaces/Aulas Spring/SpringAula03/src/main/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fe8848a244f77d293ea8eb6f28ef9af7&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -90,7 +89,9 @@
       <workItem from="1664818383119" duration="2643000" />
       <workItem from="1664821194772" duration="11293000" />
       <workItem from="1664839351094" duration="599000" />
-      <workItem from="1664904450124" duration="2371000" />
+      <workItem from="1664904450124" duration="5886000" />
+      <workItem from="1664910548114" duration="1511000" />
+      <workItem from="1664912098401" duration="338000" />
     </task>
     <servers />
   </component>

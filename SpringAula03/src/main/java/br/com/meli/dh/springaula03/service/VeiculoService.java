@@ -1,5 +1,6 @@
 package br.com.meli.dh.springaula03.service;
 
+import br.com.meli.dh.springaula03.dto.VeiculoDTO;
 import br.com.meli.dh.springaula03.exception.NotFoundException;
 import br.com.meli.dh.springaula03.model.Veiculo;
 import br.com.meli.dh.springaula03.repository.VeiculoRepo;
@@ -25,8 +26,9 @@ public class VeiculoService implements IVeiculo{
     }
 
     @Override
-    public List<Veiculo> getAllVeiculos() {
-        return repo.getAll();
+    public List<VeiculoDTO> getAllVeiculos() {
+        //return repo.getAll().stream().map(veiculo -> new VeiculoDTO(veiculo)).collect(Collectors.toList());
+        return repo.getAll().stream().map(VeiculoDTO::new).collect(Collectors.toList());
     }
 
     @Override
@@ -43,7 +45,7 @@ public class VeiculoService implements IVeiculo{
 
     @Override
     public List<Veiculo> getOrderByModel(String model) {
-        return getAllVeiculos().stream()
+        return repo.getAll().stream()
                 .filter(veiculo -> veiculo.getModelo().equalsIgnoreCase(model))
                 .collect(Collectors.toList());
     }
